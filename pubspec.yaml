@@ -1,0 +1,182 @@
+name: travel_asst
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+
+  geolocator: ^10.1.1
+  #geolocator: ^10.0.0
+  #google_maps_flutter: ^2.2.3
+  permission_handler: ^10.0.0
+
+  google_maps_flutter: ^2.5.0
+
+  http: ^0.13.6
+  firebase_core: ^3.14.0
+  firebase_auth: ^5.6.0
+
+
+firebase_core: ^2.25.4
+firebase_auth: ^4.18.3
+
+
+
+#geolocator:
+
+fluttertoast:
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+      - lib/assets/images/travel_banner.webp
+      - lib/assets/images/bali.webp
+      - lib/assets/images/paris.webp
+      - lib/assets/images/tokyo.jpg
+      - lib/assets/images/amazon.webp
+      - lib/assets/images/mountains_logo.webp
+      - lib/assets/images/beaches_logo.webp
+      - lib/assets/images/cities_logo.jpg
+      - lib/assets/images/adventures_logo.jpg
+      - lib/assets/images/nav/home.webp
+      - lib/assets/images/nav/location.webp
+      - lib/assets/images/nav/plan_trip.webp
+      - lib/assets/images/nav/settings.jpg
+      - lib/assets/images/nav/weather.jpg
+      - lib/assets/images/drawer/profile.png
+      - lib/assets/images/drawer/profile_logo.webp
+      - lib/assets/images/drawer/pack.jpg
+      - lib/assets/images/drawer/saved2.jpg
+      - lib/assets/images/drawer/abt.png
+      - lib/assets/images/drawer/lang.jpg
+      - lib/assets/images/drawer/ins.jpg
+      - lib/assets/images/drawer/pack.jpg
+      - lib/assets/images/drawer/guide.jpg
+      - lib/assets/images/drawer/sos.jpg
+      - lib/assets/images/drawer/d2.png
+      - lib/assets/images/options/country.webp
+      - lib/assets/images/options/food.webp
+      - lib/assets/images/options/hotel.jpg
+      - lib/assets/images/options/hospital.webp
+      - lib/assets/images/options/transport.webp
+      - lib/assets/images/options/police.webp
+      - lib/assets/images/login_background.webp
+      - lib/assets/images/login_logo.webp
+      - lib/assets/images/drawer/logout.jpg
+      - lib/assets/images/login3.webp
+      - lib/assets/images/mountains/Kangchenjunga.webp
+      - lib/assets/images/mountains/everest.webp
+      - lib/assets/images/mountains/k2.webp
+      - lib/assets/images/mountains/makalu.webp
+      - lib/assets/images/mountains/Lhotse.jpg
+      - lib/assets/images/beaches/bora_bora.jpg
+      - lib/assets/images/beaches/mavi.jpg
+      - lib/assets/images/beaches/maldives.jpg
+      - lib/assets/images/beaches/seychelles.jpg
+      - lib/assets/images/beaches/whitehaven.jpg
+
+      - lib/assets/images/cities/paris.jpg
+      - lib/assets/images/cities/newyork.webp
+      - lib/assets/images/cities/tokyo.jpg
+      - lib/assets/images/cities/rome.jpg
+      - lib/assets/images/cities/sydney.jpg
+
+      - lib/assets/images/adventures/hiking.jpg
+      - lib/assets/images/adventures/scuba_diving.jpg
+      - lib/assets/images/adventures/skydiving.jpg
+      - lib/assets/images/adventures/bungee_jumping.jpg
+      - lib/assets/images/adventures/rock_climbing.webp
+
+      - lib/assets/images/places/istanbul.jpg
+      - lib/assets/images/places/helsinki.webp
+      - lib/assets/images/places/maldives.jpg
+      - lib/assets/images/places/pompei.jpg
+      - lib/assets/images/places/tajmahal.jpg
+      - lib/assets/images/places/venice.jpg
+
+      - lib/assets/images/profile.jpeg
+
+      - lib/assets/images/famous_foods/buenos-aires-choripan.webp
+      - lib/assets/images/famous_foods/chilli_crab_singapore.webp
+      - lib/assets/images/famous_foods/fuchka.webp
+      - lib/assets/images/famous_foods/hot_pot_china.webp
+      - lib/assets/images/famous_foods/pizza.jpg
+      - lib/assets/images/famous_foods/tteokbokki-seoul.webp
+      - lib/assets/images/famous_foods/fish_and_chips_london.webp
+      - lib/assets/images/famous_foods/pineapple_bun_hongkong.webp
+      - lib/assets/images/famous_foods/roti_kanai_thailand.jpg
+
+
+    # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
+
+

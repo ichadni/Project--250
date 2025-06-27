@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998315877604",
+    "project_id": "travel-assistant-54372",
+    "storage_bucket": "travel-assistant-54372.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998315877604:android:abd90af4d31e0fad7fb8f1",
+        "android_client_info": {
+          "package_name": "com.example.travel_asst"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhWmUsx0Uvd-RF0bEX0V0W3Zv_zobK-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
